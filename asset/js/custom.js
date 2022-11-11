@@ -52,20 +52,20 @@ btnPassword.addEventListener('click',() =>{
 
 
     if (password === "911"){
-        resultadoPassword.innerHTML = "Password 1 Correcto";
+        resultadoPassword.innerHTML = "<b>Password 1 Correcto</b>";
+        resultadoPassword.style.color = "green";
     return; 
     }
     if (password === "714" ){
-        resultadoPassword.innerHTML = "Password 2 Correcto";
+        resultadoPassword.innerHTML = "<b>Password 2 Correcto</b>";
+        resultadoPassword.style.color = "green";
     return;
     }
     if (password != "911" || "714"){
-        resultadoPassword.innerHTML = "Password  Incorrecto, Intente Nuevamente";
+        resultadoPassword.innerHTML = "<b>Password  Incorrecto, Intente Nuevamente</b>";
         resultadoPassword.style.color = "red";
     return;
     }
-
-
 })
 
 

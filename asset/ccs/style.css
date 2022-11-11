@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(45, 31, 58);
+    color: rgb(170, 202, 26);
+}
+/** primera parte **/
+
+.solar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    margin: 40px;
+}
+
+#btnSolar {
+    height: 50vh;
+}
+
+
+/** segunda parte **/
+
+.stickers-titulo, h1, h2, p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+img{
+    border-radius: 75px;
+}
+.stickers {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+input{
+    display: flex;
+    text-align: center;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 200;
+}
+
+
+
+/** tercera parte **/
+.password {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+    height: 40px;
+    
+}
+
+footer a{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: darkgoldenrod;
+    transition: color 0.3s ease;
+    margin: 10px;
+    
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asset/ccs/style.css">
+    <title>Desafio Condiciones</title>
+</head>
+<body>
+    <h1 id="comienzo">Desafio Condiciones</h1>
+    <section class="solar" >
+        <img id="btnSolar"  src="/asset/img/sistema_solar.jpeg" alt="sistema_solar"  >
+    </section>
+    <section>
+        <div class="stickers-titulo">
+            <h2 class>Stickers</h2>
+            <p class=>Puedes llevar hasta 10 Stickers en Total.</p>
+        </div>
+        <div class="stickers">
+            <article>
+                <img src="/asset/img/stickers_tierra.jpeg" alt="stickers_tierra" width="150px" height="150px">
+                <input id="stickersTierra" type="number" min="0" max="10" value="0">
+            </article>
+            <article>
+                <img src="/asset/img/stickers_sol.png" alt="stickers_sol" width="150px" height="150px">
+                <input id="stickersSol"type="number" min="0" max="10" value="0">
+            </article>
+            <article>
+                <img src="/asset/img/stickers_luna.png" alt="stickers_luna" width="150px" height="150px">
+                <input id="stickersLuna" type="number" min="0" max="10" value="0">
+            </article>
+        </div>
+        </section>
+        <div class="btns">
+            <p id="totalNumberSticker"></p>
+            <button id="btnStickers">Calcular</button>
+        </div>
+    
+    <section>
+        <h2>Ingresa el Password</h2>
+        <div class="password">        
+            <select name="1" id="codigoUno">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="2" id="codigoDos">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="3" id="codigoTres">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>  
+        </div> 
+    </section> 
+    <div class="btns">
+        <p id="resultadoPassword"></p>
+        <button id="btnPassword">Ingresar</button>
+    </div>
+    <footer>
+        <a href="#comienzo">Ir Al Comienzo</a>
+    </footer>
+    <script src="/asset/js/custom.js"></script>
+</body>
+</html>
